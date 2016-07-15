@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='C1257DA200450485'>
+<noteinfo noteid='18a' unid='F2879D80EE580E97C1257D8C0051F957' sequence='9'>
+<created><datetime>20141110T155522,47+01</datetime></created>
+<modified><datetime>20160217T152435,10+01</datetime></modified>
+<revised><datetime>20160217T072921,10+01</datetime></revised>
+<lastaccessed><datetime dst='true'>20160610T163741,87+02</datetime></lastaccessed>
+<addedtofile><datetime>20160206T082625,19+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Marcel Bussien/OU=CH/O=HPH</name><name>CN=Marcel Bussien/O=plx</name><name
+>CN=b guru/O=plx</name><name>CN=Marcel Bussien/O=plx</name></updatedby>
+<wassignedby><name>CN=Marcel Bussien/O=plx</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>delete</text></item>
+<item name='$PublicAccess'><text>1</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+hAACACgAAgAkNwUABQBmbGQwMQABAAEAIAAiAgUABQBmbGQwMgAiAgMABQAsACgABQACAAUABQAF
+AAkAJDdmbGQwMWZsZDAyZmxkMDkkQ29uZmxpY3QEAAQAAAAeAAUABABGb3JtAQAGAGRlbGV0ZQoC
+BAAEAAMABwAMAAUACTNTNFMA
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+GwACAABECGYAAAACAAhmAAIABQAkN2ZsZDAx
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQAEAAgAC0AAAFZDAQQCAAQANgAAAHgABQAACQABAAAAAAAAAAICAAAAVkMBBAUABQAAAAAAUAAG
+AAAJAAEAAAAAAAAAAgIAAABWQwAEBQAFAAAAAABQAAcAAAoAAAAAAAAAAAACAgAAAFZDAAQFAAUA
+AAAAAFAACAAACgAAAAAAAAAAAAICAAAAJDduYW1lNgACACgAAgAkNwUABQBmbGQwMQABAAEAIAAi
+AgUABQBmbGQwMgAiAgMABwAMAAUACTBTMEUAZmxkMDFmbGQwMWZsZDAyZmxkMDJmbGQwOWZsZDA5
+JgABAAAAAQEACQEAAAoBAQ4KAAABAK0rAQABAAEAAAAAAAAAAABXQwEBAAgAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAV0MBAQAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+//8AAAAAAAAAAAAAAAAAAFdDAQEACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAA
+AAAAAABXQwEBAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAAAAAAAAAAAQgAQAAAA
+AQD///8ABQD///8AAQAAAAAAAAAAAAAAAAABAP///wABAP///wAAAAEAAAAAAAEAgICAAAEAAAAA
+AAAACAAAAAAAAQA=
+</rawitemdata></item>
+<item name='$Fonts' sign='true'><textlist><text>5</text><text>22</text><text
+>Times New Roman</text><text>6</text><text>22</text><text>Times New Roman</text><text
+>7</text><text>22</text><text>Times New Roman</text><text>8</text><text>22</text><text
+>Times New Roman</text></textlist></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text/></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$SelQuery' sign='true'>
+<rawitemdata type='f'>
+gQYAAAAAif8SAAAAAAABAAYAZGVsZXRl
+</rawitemdata></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwPAAAAAQABAAAAAAAAAAAAAAAAAAAACAAAAHn/bAABAMDAwAABAAAAAAABAAAAAAABAMDAwAAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC+/yYAAAAFAAAAnQEAAAsAAAAAAAAAQ2F0ZWdvcmlfemUA
+AQBOfL7/KAAAAAUAAACdAQAADgAAAAAAAABfRWRpdCBEb2N1bWVudAIAAgq+/ygAAAAFAAAAnQEA
+AA4AAAAAAAAAU2VuZCBEb2N1X21lbnQDAAMKvv8iAAAABQAAAJ0BAAAIAAAAAAAAAF9Gb3J3YXJk
+BAAECr7/LAAAAAUAAACdAQAAEgAAAAAAAABfTW92ZSBUbyBGb2xkZXIuLi4FAD18vv8uAAAABQAA
+AJ0BAAATAAAAAAAAAF9SZW1vdmUgRnJvbSBGb2xkZXICBgA+fA==
+</rawitemdata></item>
+<item name='$ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRwPAAAAAQABAAAAAAAAAAAAAAAAAAAACAAAAL7/JgAAAAUAAACdAQAACwAAAAAAAABDYXRlZ29y
+aV96ZQABAE58vv8oAAAABQAAAJ0BAAAOAAAAAAAAAF9FZGl0IERvY3VtZW50AgACCr7/KAAAAAUA
+AACdAQAADgAAAAAAAABTZW5kIERvY3VfbWVudAMAAwq+/yIAAAAFAAAAnQEAAAgAAAAAAAAAX0Zv
+cndhcmQEAAQKvv8sAAAABQAAAJ0BAAASAAAAAAAAAF9Nb3ZlIFRvIEZvbGRlci4uLgUAPXy+/y4A
+AAAFAAAAnQEAABMAAAAAAAAAX1JlbW92ZSBGcm9tIEZvbGRlcgAGAD58
+</rawitemdata></item></note>
+

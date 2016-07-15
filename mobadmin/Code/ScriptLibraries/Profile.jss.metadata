@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="filter" maintenanceversion="1.0" replicaid="C1257DA200450485" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="15a" sequence="12" unid="F8880A39D1C13CE5C1257D8000472758">
+<created><datetime>20141029T135711,28+01</datetime></created>
+<modified><datetime>20160217T152434,91+01</datetime></modified>
+<revised><datetime>20160217T072921,38+01</datetime></revised>
+<lastaccessed><datetime>20160217T152434,91+01</datetime></lastaccessed>
+<addedtofile><datetime>20160206T082624,94+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Michael Sava/OU=Watson/O=IBM</name><name>CN=Marcel Bussien/O=plx</name><name>CN=Marcel Bussien/OU=CH/O=HPH</name><name>CN=Marcel Bussien/O=plx</name><name>CN=hv Administrator/O=plx</name><name>CN=Marcel Bussien/OU=CH/O=HPH</name><name>CN=hv Administrator/O=plx</name><name>CN=hv admin/O=AceHardware</name><name>CN=Marcel Bussien/OU=CH/O=HPH</name><name>CN=Marcel Bussien/O=plx</name><name>CN=b guru/O=plx</name><name>CN=Marcel Bussien/O=plx</name></updatedby>
+<wassignedby><name>CN=Marcel Bussien/O=plx</name></wassignedby>
+<item name="$TITLE" sign="true"><text>Profile</text></item>
+<item name="$Flags"><text>.5834Q</text></item>
+<item name="$PublicAccess" sign="true"><text>1</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+</note>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note default='true' class='icon' xmlns='http://www.lotus.com/dxl' version='9.0'
+ maintenanceversion='1.0' replicaid='C1257DA200450485'>
+<noteinfo noteid='122' unid='41F3BE2C2EE0A265C1257D7F0059B5A4' sequence='1'>
+<created><datetime>20141028T171952,04+01</datetime></created>
+<modified><datetime dst='true'>20160610T164730,51+02</datetime></modified>
+<revised><datetime dst='true'>20160610T164730,50+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20160610T164730,51+02</datetime></lastaccessed>
+<addedtofile><datetime>20160206T082624,17+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Marcel Bussien/O=plx</name></updatedby>
+<item name='$TITLE'><text>Mobile Admin</text></item>
+<item name='$Flags'><text>J7?</text></item>
+<item name='$LaunchXPageRunOnServer'><text>0</text></item>
+<item name='$FlagsNoRefresh'><text/></item>
+<item name='$DefaultClientXPage'><text>m_application.xsp</text></item>
+<item name='$Daos'><text>0</text></item>
+<item name='IconBitmap' summary='true'>
+<rawitemdata type='6'>
+AiAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAARERERERERERERERERERERERERERERERERERERERERER8A7v/u
+7u7u7u7u7v/+4PERAA/////u7u7u/////wARERAB8RERERERERERERAOEREQAREREREREREREREQ
+ABERAAEREREREREREREREADxEQAAD/ERERERERER/gAA4REAAAAAAAAAAAAAAAAAABEREAAAAAAA
+AAAAAAAAAAARERCIAACIiIiIiIiIAIgAERHwiIiIiIiIiIiIiIiIABERAIiIiIiIiIiICIiIiIAR
+EQiIiLIogoiIiAIiuIiAEREIiIiIAADQAAAIiIiIgOERCIiIiIAA4AAACIiIiIgBHwiIiIiIAOAA
+AIiIiIiIARCIiIiIiAiIiIiIiIiIiAEQiIiIiIiIiIiIiIiIiCgPAIKIiIiIiIiIiIiIiIiIAACI
+iIiIiIiIiIiIiIiIgoAIiIiIiIiIiIiIiIiIiIKACCiIiIiIiIIoiIiIiIiCgIgoiIiIiIiIiIiI
+iIiIiIiCIoiIiIiIiIgoiIiIiLIoIrIoiIiIgoiIIoiIiIgi4v/uIoiIiIiIiIiIiIiC7v8RER6I
+i4iIgoiIiIiIvxEREREREojiiIIoiCuILhERERERER/ojiKIiCIoi/ERERERERERH+iO4r7oi+ER
+ERERERERERER/u7u7xEREREREQ==
+</rawitemdata></item></note>
+

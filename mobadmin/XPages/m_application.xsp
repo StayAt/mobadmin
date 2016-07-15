@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xe="http://www.ibm.com/xsp/coreex"
+	pageIcon="/favicon.ico">
+	<xp:this.resources>
+		<xp:script
+			src="/Profile.jss"
+			clientSide="false"></xp:script>
+	</xp:this.resources>
+
+	<!--****  homePage-->
+	<xe:singlePageApp
+		id="singlePageApp1"
+		selectedPageName="homePage">
+		<xe:appPage
+			id="appPage1"
+			pageName="homePage">
+			<xe:djxmHeading
+				id="djxmHeading1"
+				label="mobileAdmin">
+			</xe:djxmHeading>
+			<xp:table
+				id="entry"
+				style="width:100%">
+				<xp:tr
+					style="text-align:center">
+					<xp:td
+						style="text-align:center">
+						<xp:image
+							url="/sofa01.jpg"
+							id="image2">
+							<xp:eventHandler
+								event="onclick"
+								submit="true"
+								refreshMode="complete">
+								<xp:this.action>
+									<xe:moveTo
+										targetPage="viewPage"></xe:moveTo>
+								</xp:this.action>
+							</xp:eventHandler>
+						</xp:image>
+					</xp:td>
+				</xp:tr>
+				<xp:tr
+					style="text-align:center">
+					<xp:td
+						style="text-align:center">
+						<xp:label
+							value="Manage Your Notes Users"
+							id="label1"
+							style="text-align:center">
+						</xp:label>
+					</xp:td>
+				</xp:tr>
+				<xp:tr
+					style="text-align:center">
+					<xp:td
+						style="text-align:center">
+						<xp:label
+							value="From The Sofa"
+							id="label2"
+							style="text-align:right">
+						</xp:label>
+					</xp:td>
+				</xp:tr>
+				<xp:tr
+					style="text-align:center">
+					<xp:td
+						style="text-align:center">
+					</xp:td>
+				</xp:tr>
+				
+
+			</xp:table>
+			<xe:tabBar
+				id="tabBar3"
+				barType="segmentedControl"
+				tooltip="Manage Your Notes Users From The Sofa">
+				<xe:tabBarButton
+					id="tabBarButton5"
+					icon1="/Register01.gif"
+					style="text-align:center"
+					title="Register">
+					<xp:eventHandler
+						event="onClick"
+						submit="true"
+						refreshMode="complete">
+						<xe:this.action>
+							<xp:actionGroup>
+								<xe:moveTo
+									direction="Right to Left"
+									forceFullRefresh="true"
+									targetPage="viewPage"
+									transitionType="slide">
+								</xe:moveTo>
+							</xp:actionGroup>
+						</xe:this.action>
+					</xp:eventHandler>
+				</xe:tabBarButton>
+				<xe:tabBarButton
+					id="tabBarButton4"
+					icon1="/Rename01.gif"
+					style="text-align:center"
+					title="Rename">
+					<xp:eventHandler
+						event="onClick"
+						submit="true"
+						refreshMode="complete">
+						<xe:this.action>
+							<xp:actionGroup>
+								<xe:moveTo
+									direction="Right to Left"
+									forceFullRefresh="true"
+									targetPage="renamePage"
+									transitionType="slide">
+								</xe:moveTo>
+							</xp:actionGroup>
+						</xe:this.action>
+					</xp:eventHandler>
+				</xe:tabBarButton>
+				<xe:tabBarButton
+					id="tabBarButton2"
+					icon1="/Delete01.gif"
+					style="text-align:center"
+					title="Delete">
+					<xp:eventHandler
+						event="onClick"
+						submit="true"
+						refreshMode="complete">
+						<xe:this.action>
+							<xp:actionGroup>
+								<xe:moveTo
+									direction="Right to Left"
+									forceFullRefresh="true"
+									targetPage="deletePage"
+									transitionType="slide">
+								</xe:moveTo>
+							</xp:actionGroup>
+						</xe:this.action>
+					</xp:eventHandler>
+				</xe:tabBarButton>
+				</xe:tabBar>
+				<hr/>
+				<xp:table align="center">
+					<xp:tr
+						align="center"
+						valign="bottom">
+						<xp:td align="center">
+							<xe:tabBar
+								id="tabBar4"
+								style="text-align:center">
+								<a href="Notes://plxLocal/C1257D7F0059B597/D7527A89DA04FE07C1257D88004B8668/FCC8DA689FCC69D0C1257D8000496DCA">
+								<xe:tabBarButton
+									id="tabBarButton6"
+									style="text-align:center"
+									icon1="/prefsmall.gif"
+									title="Settings">
+								</xe:tabBarButton>
+								</a>
+							</xe:tabBar>
+						</xp:td>
+					</xp:tr>
+				</xp:table>
+		</xe:appPage>
+
+		<!--   ***** viewPage-->
+		<xe:appPage
+			id="appPage2"
+			pageName="viewPage"
+			preload="true"
+			resetContent="true">
+        	
+			<xe:djxmHeading
+				id="djxmHeading2"
+				back="Back"
+        		moveTo="homePage">
+				<xp:this.facets>
+					<xp:panel
+						xp:key="actionFacet">
+<xe:toolBarButton id="toolBarButton6" label="Add" icon="/add.gif">
+							<xp:eventHandler event="onClick" submit="true" refreshMode="complete">
+								<xe:this.action>
+									<xe:moveTo direction="Right to Left" forceFullRefresh="true" transitionType="fade" targetPage="documentPage">
+									</xe:moveTo>
+								</xe:this.action>
+							</xp:eventHandler>
+						</xe:toolBarButton>	
+					</xp:panel>
+				</xp:this.facets>
+			</xe:djxmHeading>
+			
+			
+			
+<xp:table align="center">
+					<xp:tr
+						align="center"
+						valign="bottom">
+						<xp:td align="center">
+			<xe:toolBarButton
+							id="toolBarButton4"
+							label="Register ALL"
+							icon="/Register01.gif">
+
+								<xp:eventHandler
+									event="onclick"
+									submit="true"
+									refreshMode="complete"
+									id="eventHandler1">
+									<xp:this.action>
+										<xp:executeScript>
+											<xp:this.script><![CDATA[#{javascript:
+						var profile = getProfileData();						
+						var admin:org.stayat.NotesAdmin = new org.stayat.NotesAdmin(profile.SERVER, profile.FILEPATH,"register");
+						var strReturn:String = admin.registerAll(session);
+												
+					}]]></xp:this.script>
+										</xp:executeScript>
+									</xp:this.action>
+								</xp:eventHandler>
+				</xe:toolBarButton>
+</xp:td>
+</xp:tr>
+</xp:table>						
+
+<xe:dataView
+				id="dataView1"
+				rows="10"
+				pageName="documentPage"
+				openDocAsReadonly="true">
+				<xe:this.data>
+					<xp:dominoView
+						var="view1"
+						viewName="register">
+					</xp:dominoView>
+				</xe:this.data>
+				<xe:this.summaryColumn>
+					<xe:viewSummaryColumn
+						columnName="name"></xe:viewSummaryColumn>
+				</xe:this.summaryColumn>
+			</xe:dataView>
+			</xe:appPage>
+		<!--    END viewPage-->
+
+<!--   ***** renamePage-->
+		<xe:appPage
+			id="appPage6"
+			pageName="renamePage"
+			preload="true"
+			resetContent="true">
+			
+			<xe:djxmHeading
+				id="djxmHeading6"
+				back="Back"
+        		moveTo="homePage">
+        		
+				<xp:this.facets>
+					<xp:panel
+						xp:key="actionFacet">
+						<xe:toolBarButton
+							id="toolBarButton3"
+							label="Rename ALL"
+							icon="/Rename01.gif">
+							<xp:eventHandler
+								event="onClick"
+								submit="true"
+								refreshMode="complete">
+								<xp:this.action>
+									<xp:executeScript>
+										<xp:this.script><![CDATA[#{javascript:
+						var profile = getProfileData();						
+						var admin:org.stayat.NotesAdmin = new org.stayat.NotesAdmin(profile.SERVER, profile.FILEPATH, "rename");
+						var strReturn:String = admin.renameAll(session);
+												
+					}]]></xp:this.script>
+									</xp:executeScript>
+								</xp:this.action>
+							</xp:eventHandler>
+						</xe:toolBarButton>
+						<xe:toolBarButton id="toolBarButton10" label="Add" icon="/add.gif">
+							<xp:eventHandler event="onClick" submit="true" refreshMode="complete">
+								<xe:this.action>
+									<xe:moveTo direction="Right to Left" forceFullRefresh="true" transitionType="fade" targetPage="documentPage">
+									</xe:moveTo>
+								</xe:this.action>
+							</xp:eventHandler>
+						</xe:toolBarButton>
+
+
+
+
+
+
+					</xp:panel>
+				</xp:this.facets>
+			</xe:djxmHeading>
+			<xe:dataView
+				id="dataView3"
+				rows="10"
+				pageName="renameDocPage"
+				openDocAsReadonly="true">
+				<xe:this.data>
+					<xp:dominoView
+						var="view1"
+						viewName="rename">
+					</xp:dominoView>
+				</xe:this.data>
+				<xe:this.summaryColumn>
+					<xe:viewSummaryColumn
+						columnName="name"></xe:viewSummaryColumn>
+				</xe:this.summaryColumn>
+			</xe:dataView>
+		</xe:appPage>
+		<!--    END renamePage-->
+
+		<!--   ***** deletePage-->
+		<xe:appPage
+			id="appPage4"
+			pageName="deletePage"
+			preload="true"
+			resetContent="true">
+        	
+			<xe:djxmHeading
+				id="djxmHeading4"
+				back="Back"
+        		moveTo="homePage">
+				<xp:this.facets>
+					<xp:panel
+						xp:key="actionFacet">
+						<xe:toolBarButton
+							id="toolBarButton9"
+							label="Delete ALL"
+							icon="/Delete01.gif">
+							<xp:eventHandler
+								event="onClick"
+								submit="true"
+								refreshMode="complete">
+								<xp:this.action>
+									<xp:executeScript>
+										<xp:this.script><![CDATA[#{javascript:
+						var profile = getProfileData();						
+						var admin:org.stayat.NotesAdmin = new org.stayat.NotesAdmin(profile.SERVER, profile.FILEPATH, "delete");
+						var strReturn:String = admin.deleteALL(session);
+												
+					}]]></xp:this.script>
+									</xp:executeScript>
+								</xp:this.action>
+							</xp:eventHandler>
+						</xe:toolBarButton>
+						<xe:toolBarButton id="toolBarButton8" label="Add" icon="/add.gif">
+							<xp:eventHandler event="onClick" submit="true" refreshMode="complete">
+								<xe:this.action>
+									<xe:moveTo direction="Right to Left" forceFullRefresh="true" transitionType="fade" targetPage="deleteDocPage">
+									</xe:moveTo>
+								</xe:this.action>
+							</xp:eventHandler>
+						</xe:toolBarButton>
+					</xp:panel>
+				</xp:this.facets>
+			</xe:djxmHeading>
+			<xe:dataView
+				id="dataView2"
+				rows="10"
+				pageName="deleteDocPage"
+				openDocAsReadonly="true">
+				<xe:this.data>
+					<xp:dominoView
+						var="view1"
+						viewName="delete">
+					</xp:dominoView>
+				</xe:this.data>
+				<xe:this.summaryColumn>
+					<xe:viewSummaryColumn
+						columnName="name"></xe:viewSummaryColumn>
+				</xe:this.summaryColumn>
+			</xe:dataView>
+		</xe:appPage>
+		<!--    END deletePage-->
+		
+
+
+		<!--  *****  documentPage-->
+		<xe:appPage
+			id="appPage3"
+			pageName="documentPage"
+			resetContent="true">
+			<xp:panel>
+				<xp:this.data>
+					<xp:dominoDocument
+						var="document1"
+						formName="register">
+					</xp:dominoDocument>
+				</xp:this.data>
+				<xe:djxmHeading
+					id="djxmHeading3"
+					back="Back"
+					moveTo="viewPage"
+					label="Register">
+					<xp:this.facets>
+						<xp:panel
+							xp:key="actionFacet">
+							<xe:toolBarButton
+								id="toolBarButton1"
+								label="Edit"
+								rendered="#{javascript:!document1.isEditable()}">
+								<xp:eventHandler
+									event="onClick"
+									submit="true"
+									refreshMode="complete">
+									<xe:this.action>
+										<xp:changeDocumentMode
+											mode="edit"
+											var="document1">
+										</xp:changeDocumentMode>
+									</xe:this.action>
+								</xp:eventHandler>
+							</xe:toolBarButton>
+							<xe:toolBarButton
+								id="toolBarButton2"
+								label="Save"
+								rendered="#{javascript:document1.isEditable()}">
+								<xp:eventHandler
+									event="onClick"
+									submit="true"
+									refreshMode="complete">
+									<xe:this.action>
+										<xe:moveTo
+											direction="Right to Left"
+											saveDocument="true"
+											targetPage="viewPage"
+											transitionType="fade">
+										</xe:moveTo>
+									</xe:this.action>
+								</xp:eventHandler>
+							</xe:toolBarButton>
+						</xp:panel>
+					</xp:this.facets>
+				</xe:djxmHeading>
+				<xe:formTable
+					id="formTable1">
+					<xe:formRow
+						id="formRow1"
+						label="FirstName *">
+						<xp:inputText
+							id="inputText1"
+							value="#{document1.fld01}">
+						</xp:inputText>
+					</xe:formRow>
+					<xe:formRow
+						id="formRow2"
+						label="LastName *">
+						<xp:inputText
+							id="inputText2"
+							value="#{document1.fld02}">
+						</xp:inputText>
+					</xe:formRow>
+					<xe:formRow
+						id="formRow3"
+						label="Middle">
+						<xp:inputText
+							id="inputText3"
+							value="#{document1.fld03}">
+						</xp:inputText>
+					</xe:formRow>
+					<xe:formRow
+						id="formRow6"
+						label="Location">
+						<xp:inputText
+							id="inputText6"
+							value="#{document1.fld06}">
+						</xp:inputText>
+					</xe:formRow>
+					<xe:formRow
+						id="formRow15"
+						label="vaulted ">
+						<xp:radio>
+							<xp:selectItem
+								itemLabel="yes"
+								itemValue="yes">
+							</xp:selectItem>
+							<xp:selectItem
+								itemLabel="no"
+								itemValue="no">
+							</xp:selectItem>
+						</xp:radio>
+					</xe:formRow>
+					
+					<xe:formRow
+						id="formRow14"
+						label="status ">
+						<xp:inputText
+							id="inputText14"
+							value="#{document1.fld09}">
+						</xp:inputText>
+					</xe:formRow>
+					<xe:formRow
+						id="formRow10"
+						label="pwd* ">
+						<xp:inputText
+							id="inputText10"
+							value="#{document1.fld10}">
+						</xp:inputText>
+					</xe:formRow>
+					
+					
+					
+				</xe:formTable>
+				<xe:tabBar
+					id="tabBar1"
+					barType="segmentedControl">
+					<xe:tabBarButton
+						id="tabBarButton1"
+						label="Delete"
+						rendered="#{javascript:!document1.isNewNote()}"
+						style="font-size:14pt;color:rgb(255,255,255);font-weight:bold">
+						<xp:eventHandler
+							event="onClick"
+							submit="true"
+							refreshMode="complete">
+							<xe:this.action>
+								<xp:actionGroup>
+									<xp:deleteDocument
+										name=""
+										message="This action will delete the current document."
+										var="document1">
+									</xp:deleteDocument>
+									<xe:moveTo
+										direction="Right to Left"
+										forceFullRefresh="true"
+										targetPage="viewPage"
+										transitionType="slide">
+									</xe:moveTo>
+								</xp:actionGroup>
+							</xe:this.action>
+						</xp:eventHandler>
+					</xe:tabBarButton>
+				</xe:tabBar>
+			</xp:panel>
+		</xe:appPage>
+		<!-- END *****  documentPage-->
+
+		<!--  *****  renameDocPage-->
+		<xe:appPage
+			id="appPage5"
+			pageName="renameDocPage"
+			resetContent="true">
+			<xp:panel>
+				<xp:this.data>
+					<xp:dominoDocument
+						var="document1"
+						formName="rename">
+					</xp:dominoDocument>
+				</xp:this.data>
+				<xe:djxmHeading
+					id="djxmHeading5"
+					back="Back"
+					moveTo="renamePage"
+					label="Rename">
+					<xp:this.facets>
+						<xp:panel
+							xp:key="actionFacet">
+							<xe:toolBarButton
+								id="toolBarButton5"
+								label="Edit"
+								rendered="#{javascript:!document1.isEditable()}">
+								<xp:eventHandler
+									event="onClick"
+									submit="true"
+									refreshMode="complete">
+									<xe:this.action>
+										<xp:changeDocumentMode
+											mode="edit"
+											var="document1">
+										</xp:changeDocumentMode>
+									</xe:this.action>
+								</xp:eventHandler>
+							</xe:toolBarButton>
+							<xe:toolBarButton
+								id="toolBarButton7"
+								label="Save"
+								rendered="#{javascript:document1.isEditable()}">
+								<xp:eventHandler
+									event="onClick"
+									submit="true"
+									refreshMode="complete">
+									<xe:this.action>
+										<xe:moveTo
+											direction="Right to Left"
+											saveDocument="true"
+											targetPage="renamePage"
+											transitionType="fade">
+										</xe:moveTo>
+									</xe:this.action>
+								</xp:eventHandler>
+							</xe:toolBarButton>
+						</xp:panel>
+					</xp:this.facets>
+				</xe:djxmHeading>
+				<xe:formTable
+					id="formTable2">
+	
+					<xe:formRow
+						id="formRow7"
+						label="FirstName *">
+						<xp:inputText
+							id="inputText7"
+							value="#{document1.fld01}">
+						</xp:inputText>
+					</xe:formRow>
+					<xe:formRow
+						id="formRow8"
+						label="LastName *">
+						<xp:inputText
+							id="inputText8"
+							value="#{document1.fld02}">
+						</xp:inputText>
+					</xe:formRow>
+
+					<xe:formRow
+						id="formRow12"
+						label="New FirstName *">
+						<xp:inputText
+							id="inputText12"
+							value="#{document1.fld04}">
+						</xp:inputText>
+					</xe:formRow>
+				
+					<xe:formRow
+						id="formRow13"
+						label="New LastName *">
+						<xp:inputText
+							id="inputText13"
+							value="#{document1.fld05}">
+						</xp:inputText>
+					</xe:formRow>
+				
+					<xe:formRow
+						id="formRow9"
+						label="Status">
+						<xp:inputText
+							id="inputText9"
+							value="#{document1.fld09}">
+						</xp:inputText>
+					</xe:formRow>
+				</xe:formTable>
+				<xe:tabBar
+					id="tabBar5"
+					barType="segmentedControl">
+					<xe:tabBarButton
+						id="tabBarButton9"
+						label="Delete"
+						rendered="#{javascript:!document1.isNewNote()}"
+						style="color:rgb(255,255,255);font-size:14pt;font-weight:bold">
+						<xp:eventHandler
+							event="onClick"
+							submit="true"
+							refreshMode="complete">
+							<xe:this.action>
+								<xp:actionGroup>
+									<xp:deleteDocument
+										name=""
+										message="This action will delete the current document."
+										var="document1">
+									</xp:deleteDocument>
+									<xe:moveTo
+										direction="Right to Left"
+										forceFullRefresh="true"
+										targetPage="renamePage"
+										transitionType="slide">
+									</xe:moveTo>
+								</xp:actionGroup>
+							</xe:this.action>
+						</xp:eventHandler>
+					</xe:tabBarButton>
+				</xe:tabBar>
+			</xp:panel>
+		</xe:appPage>
+		<!--    END renameDocPage-->
+		
+		<!--  *****  deleteDocPage-->
+		<xe:appPage
+			id="appPage7"
+			pageName="deleteDocPage"
+			resetContent="true">
+			<xp:panel>
+				<xp:this.data>
+					<xp:dominoDocument
+						var="document1"
+						formName="delete">
+					</xp:dominoDocument>
+				</xp:this.data>
+				<xe:djxmHeading
+					id="djxmHeading7"
+					back="Back"
+					moveTo="deletePage"
+					label="Delete">
+					<xp:this.facets>
+						<xp:panel
+							xp:key="actionFacet">
+							<xe:toolBarButton
+								id="toolBarButton11"
+								label="Edit"
+								rendered="#{javascript:!document1.isEditable()}">
+								<xp:eventHandler
+									event="onClick"
+									submit="true"
+									refreshMode="complete">
+									<xe:this.action>
+										<xp:changeDocumentMode
+											mode="edit"
+											var="document1">
+										</xp:changeDocumentMode>
+									</xe:this.action>
+								</xp:eventHandler>
+							</xe:toolBarButton>
+							<xe:toolBarButton
+								id="toolBarButton12"
+								label="Save"
+								rendered="#{javascript:document1.isEditable()}">
+								<xp:eventHandler
+									event="onClick"
+									submit="true"
+									refreshMode="complete">
+									<xe:this.action>
+										<xe:moveTo
+											direction="Right to Left"
+											saveDocument="true"
+											targetPage="deletePage"
+											transitionType="fade">
+										</xe:moveTo>
+									</xe:this.action>
+								</xp:eventHandler>
+							</xe:toolBarButton>
+						</xp:panel>
+					</xp:this.facets>
+				</xe:djxmHeading>
+				<xe:formTable
+					id="formTable3">
+					<xe:formRow
+						id="formRow4"
+						label="FirstName *">
+						<xp:inputText
+							id="inputText4"
+							value="#{document1.fld01}">
+						</xp:inputText>
+					</xe:formRow>
+					<xe:formRow
+						id="formRow5"
+						label="LastName *">
+						<xp:inputText
+							id="inputText5"
+							value="#{document1.fld02}">
+						</xp:inputText>
+					</xe:formRow>
+					<xe:formRow
+						id="formRow11"
+						label="Status">
+						<xp:inputText
+							id="inputText11"
+							value="#{document1.fld09}">
+						</xp:inputText>
+					</xe:formRow>
+				</xe:formTable>
+				<xe:tabBar
+					id="tabBar2"
+					barType="segmentedControl">
+					<xe:tabBarButton
+						id="tabBarButton3"
+						label="Delete"
+						rendered="#{javascript:!document1.isNewNote()}"
+						style="color:rgb(255,255,255);font-size:14pt;font-weight:bold">
+						<xp:eventHandler
+							event="onClick"
+							submit="true"
+							refreshMode="complete">
+							<xe:this.action>
+								<xp:actionGroup>
+									<xp:deleteDocument
+										name=""
+										message="This action will delete the current document."
+										var="document1">
+									</xp:deleteDocument>
+									<xe:moveTo
+										direction="Right to Left"
+										forceFullRefresh="true"
+										targetPage="deletePage"
+										transitionType="slide">
+									</xe:moveTo>
+								</xp:actionGroup>
+							</xe:this.action>
+						</xp:eventHandler>
+					</xe:tabBarButton>
+				</xe:tabBar>
+			</xp:panel>
+		</xe:appPage>
+		<!--    END deleteDocPage-->		
+	</xe:singlePageApp>
+</xp:view>

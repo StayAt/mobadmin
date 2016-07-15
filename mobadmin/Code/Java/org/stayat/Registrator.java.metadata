@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.0" replicaid="C1257DA200450485" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="1ca" sequence="370" unid="8D31E57529AC7B1FC1257D80004AF852">
+<created><datetime>20141029T143852,34+01</datetime></created>
+<modified><datetime>20160217T152435,45+01</datetime></modified>
+<revised><datetime>20160217T072921,26+01</datetime></revised>
+<lastaccessed><datetime>20160217T152435,45+01</datetime></lastaccessed>
+<addedtofile><datetime>20160206T082625,52+01</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=hv Administrator/O=plx</name><name>CN=Marcel Bussien/O=plx</name><name>CN=hv admin/O=AceHardware</name><name>CN=Marcel Bussien/OU=CH/O=HPH</name><name>CN=Marcel Bussien/O=plx</name><name>CN=b guru/O=plx</name><name>CN=Marcel Bussien/O=plx</name></updatedby>
+<wassignedby><name>CN=Marcel Bussien/O=plx</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>org/stayat/Registrator.java</text></item>
+
+
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>org/stayat/Registrator.java</text></item>
+
+</note>

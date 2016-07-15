@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.0'
+ replicaid='C1257DA200450485'>
+<noteinfo noteid='202' unid='0B296E291866CFDBC1257FCE00519677' sequence='2'>
+<created><datetime dst='true'>20160610T165109,35+02</datetime></created>
+<modified><datetime dst='true'>20160610T165215,62+02</datetime></modified>
+<revised><datetime dst='true'>20160610T165215,61+02</datetime></revised>
+<lastaccessed><datetime dst='true'>20160610T165215,62+02</datetime></lastaccessed>
+<addedtofile><datetime dst='true'>20160610T165109,36+02</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Marcel Bussien/O=plx</name></updatedby>
+<wassignedby><name>CN=Marcel Bussien/O=plx</name></wassignedby>
+<item name='$TITLE'><text>$DBIcon</text></item>
+<item name='$Flags'><text>34Ci~Q</text></item>
+<item name='$ImagesWide' sign='true'><number>1</number></item>
+<item name='$ImagesHigh' sign='true'><number>1</number></item>
+<item name='$ImagesColorize' sign='true'><number>0</number></item>
+<item name='$FileSize' sign='true'><number>1054</number></item>
+<item name='$ImageData' sign='true'>
+<rawitemdata type='1'>
+mQAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAH0AHAAAAAEAAAAAAB4EAAABAAAAAAAAAAAAAAB8
+ACgEAAAeBB4ER0lGODlhIAAgAPcAAAAAAACEhIQAAIQAhISEhMbGxv8AAP//////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////ywAAAAAIAAg
+AAAI/gD/CRxIUGABAggTFijIsOHAgwIEIDQwAGHEig4dQpRowEDEiB09ChiwMCNBkQRECuj4kSJI
+Aib/Efg44CNImzhHljR4MKXKnEBxGkBYoEDHASyB/kyas2PKlUyDtpSKVOVPqVhzAliZFWpXjwC2
+dh17M6xYslnBhuWKFmvYf2fbKhUAYGFcrXIBGLxrMywBs2ul6hXIN6LZv4ALGx5YGHCAxIoBwCSM
+s+pNnABC1vw4mLDioJEJFviM9i1BsYDJBjbNGLLr14lPw579WrbZojFFI/bbunPuhrdl/85otuDb
+ncNbT/Zct6jzngkVPnfOerRkAkWja9+OPftf5MnDBIv/HRAAOw==
+</rawitemdata></item>
+<item name='$MimeType' sign='true'><text>image/gif</text></item>
+<item name='$FileModDT' sign='true'><datetime dst='true'>20160610T165204,16+02</datetime></item>
+<item name='$ImageNames' sign='true'><text>C:\Apache\htdocs\Dropbox\xpages.bootstrap\sofa01.gif</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item></note>
+
